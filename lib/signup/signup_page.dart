@@ -121,7 +121,7 @@ class _SignUpState extends State<SignUp> {
                   child: const TextField(
                     obscureText: true,
                     decoration: InputDecoration(
-                      labelText: "Password",
+                      labelText: "Mot de passe",
                       border: InputBorder.none,
                       prefixIcon: Icon(Icons.lock, color: Colors.grey),
                       contentPadding: EdgeInsets.symmetric(
