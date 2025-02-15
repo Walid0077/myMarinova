@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import '../main.dart'; // Assurez-vous que le chemin est correct
 
@@ -18,6 +20,7 @@ class _SignUpState extends State<SignUp> {
     return Scaffold(
       body: Stack(
         children: [
+          Text("hello world"),
           // Fond d'écran avec dégradé
           Container(
             decoration: const BoxDecoration(
